@@ -1,8 +1,8 @@
 #include<iostream>
 using namespace std;
 int main(){
-int n,o;
-int s=0;
+int n;
+
 cout<<"Enter a Number : ";
 cin>>n;
 if(n<0)
@@ -11,10 +11,9 @@ if(n<0)
 int i=1;
 while(n>0){
     int l=n%10;
-    s+=l;
+    cout<<l;
     n=n/10;
 i++;
 
 }
-cout<<"The sum of digits of this number is : "<<s;
 }
